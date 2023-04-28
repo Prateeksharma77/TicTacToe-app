@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAC7AC"
+    android:orientation="vertical"
+    tools:context=".game"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+android:background="@color/material_dynamic_primary90"
+        android:textColor="@color/black"
+        android:text="hello player"
+        android:paddingLeft="30dp"
+        android:layout_marginLeft="0dp"
+        android:id="@+id/player_txt"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:text="hello player"
+        android:paddingLeft="32dp"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/player_txt"
+        android:layout_marginTop="12dp"
+        android:background="@color/material_dynamic_primary90"
+        android:id="@+id/player_txt2"
+        /></LinearLayout>
+
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_height="95dp"
+            android:backgroundTint="@color/grey"
+            android:text=""
+            android:onClick="check"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/grey"
+            android:onClick="check"
+            android:layout_height="95dp"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/grey"
+            android:layout_height="95dp"
+            android:onClick="check"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_marginTop="11dp"
+
+            android:backgroundTint="@color/grey"
+            android:layout_height="95dp"
+            android:onClick="check"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginLeft="11dp"
+
+            android:layout_marginTop="11dp"
+            android:layout_height="95dp"
+            android:backgroundTint="@color/grey"
+            android:onClick="check"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="11dp"
+            android:layout_height="95dp"
+
+            android:backgroundTint="@color/grey"
+            android:text=""
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_marginTop="11dp"
+            android:backgroundTint="@color/grey"
+            android:text=""
+            android:layout_height="95dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="11dp"
+            android:backgroundTint="@color/grey"
+            android:text=""
+            android:layout_height="95dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_height="95dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="11dp"
+
+            android:backgroundTint="@color/grey"
+            android:text=""
+            android:onClick="check" />
+
+
+    </GridLayout>
+
+
+
+
+</RelativeLayout>
+
